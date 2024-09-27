@@ -1,0 +1,10 @@
+[
+    {
+      "role": "Software Engineer",
+      "organisation": "NEU ITS",
+      "startDate": "July, 2024",
+      "endDate": "December, 2024",
+      "experiences": ["Worked on StudentHubs web app and on OutSystems blocks and holds.", "Refactored Node.js APIs for OutSystems blocks, reducing load times by 15%", "Conducted QA and load testing on APIs"],
+      "imageSrc": "history/nu.png"
+    }
+  ]
