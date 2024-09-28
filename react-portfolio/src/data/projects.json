@@ -1,7 +1,7 @@
 [
     {
         "title": "MediPredictor AI",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/disease.png",
         "description": "This is a project to help users predict the likelihood of developing diabetes or heart disease.",
         "skills": ["Python", "Scikit-learn", "Pandas", " Matplotlib", "Flask", "React"],
         "source": "https://github.com/jakewc12/Medipredictor-AI"
@@ -9,14 +9,14 @@
     {
         
       "title": "NEUDorms",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/neudorm.png",
       "description": "This is a project made to service the 15000+ NEU students in their on-campus housing search through a reddit like forum page for accurate reviews and centralized info.",
       "skills": ["Python", "Flask", "HTML", "CSS"],
       "demo": "https://neudorms.com/"
     },
     {
       "title": "Reversi",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/reversi board.png",
       "description": "Implementation of Othello Reversi game made to showcase Object Oriented Programming, Test Driven Development, various design paradigms, and good coding practices.",
       "skills": ["Java", "JUnit", "Java Swing"],
       "source": "https://github.com/PaoloLanaro/Reversi"
