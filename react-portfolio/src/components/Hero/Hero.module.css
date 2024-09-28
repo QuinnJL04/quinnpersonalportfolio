@@ -50,14 +50,21 @@
   }
 
   .heroImg {
-    width: 50%;
     z-index: 1;
-  
+    width: 400px;  /* Fixed width */
+    height: 400px; /* Fixed height */
+    border-radius: 50%; /* Circle */
+    object-position: 50% 65%; /* Adjust vertical position to focus on head and torso */
+    object-fit: cover; /* Crop and scale image */
+    overflow: hidden; /* Ensures image stays within the circle */
+    flex-shrink: 0; /* Prevents flexbox from shrinking the image */
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-  }
+
+}
+
 
   @keyframes floating {
     0% {
