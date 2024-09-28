@@ -93,6 +93,8 @@
 }
 
 .historyItemDetails ul {
+  padding-left: 30px; /* Adds space between bullet and text */
+  text-indent: -40px;
   margin-top: 6px;
   list-style-position: inside;
   font-size: 25px;
