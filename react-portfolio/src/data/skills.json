@@ -16,6 +16,10 @@
         "imageSrc": "skills/flask.png"
     },
     {
+      "title": "C#",
+      "imageSrc": "skills/C#.png"
+    },
+    {
       "title": "Postman",
       "imageSrc": "skills/postman.png"
     },
