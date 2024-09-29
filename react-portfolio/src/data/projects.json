@@ -11,7 +11,7 @@
       "title": "NEUDorms",
       "imageSrc": "projects/neudorm.png",
       "description": "This is a project made to service the 15000+ NEU students in their on-campus housing search through a reddit like forum page for accurate reviews and centralized info.",
-      "skills": ["Python", "Flask", "MySQL","HTML", "CSS"],
+      "skills": ["Python", "Flask", "MySQL", "AWS RDS", "HTML", "CSS"],
       "demo": "https://neudorms.com/"
     },
     {
