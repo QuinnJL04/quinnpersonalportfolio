@@ -4,7 +4,10 @@
       "organisation": "NEU ITS",
       "startDate": "July, 2024",
       "endDate": "December, 2024",
-      "experiences": ["Worked on StudentHubs web app and on OutSystems blocks and holds.", "Refactored Node.js APIs for OutSystems blocks, reducing load times by 15%", "Conducted QA and load testing on APIs"],
+      "experiences": ["Collaborated in two teams (9 and 10 members) to enhance the Student Hubs web app and OutSystems blocks, actively participating in daily Agile scrums to ensure alignment and drive efficient feature delivery.",
+      "Developed an asynchronous profile update system using Azure Service Bus, batching user updates to improve performance and manage concurrent requests to ensure reliable and efficient processing of profile updates.",
+      "Streamlined API logic, reducing load times by 15% and improving overall performance and efficiency. The refactoring involved optimizing data handling and eliminating unnecessary processes, enhancing the user experience.", 
+      "Conducted QA and load testing on APIs ensuring a 90% bug free state."],
       "imageSrc": "history/nu.png"
     }
   ]

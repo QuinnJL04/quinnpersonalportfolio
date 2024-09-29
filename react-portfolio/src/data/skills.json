@@ -16,6 +16,18 @@
         "imageSrc": "skills/flask.png"
     },
     {
+      "title": "Postman",
+      "imageSrc": "skills/postman.png"
+    },
+    {
+      "title": "JMeter",
+      "imageSrc": "skills/JMeter.png"
+    },
+    {
+      "title": "Docker",
+      "imageSrc": "skills/dockersw.png"
+    },
+    {
         "title": "C",
         "imageSrc": "skills/C.png"
     },
