@@ -1,0 +1,21 @@
+{
+  "builds": [
+    {
+      "src": "package.json", // Change this to point to the correct package.json
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist" // This should point to the dist folder after build
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/$1" // Routes to the built files in the dist directory
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/dist/index.html" } // Serve the index.html from the dist folder
+  ]
+}
+ 
