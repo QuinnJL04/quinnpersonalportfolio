@@ -11,7 +11,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/$1" // Routes to the built files in the dist directory
+      "dest": "/react-portfolio/dist/$1" // Routes to the built files in the dist directory
     }
   ],
   "rewrites": [
