@@ -1,21 +1,22 @@
 {
   "builds": [
     {
-      "src": "package.json", // Change this to point to the correct package.json
+      "src": "react-portfolio/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist" // This should point to the dist folder after build
+        "distDir": "react-portfolio/dist"  // This should match your build output
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/react-portfolio/dist/$1" // Routes to the built files in the dist directory
+      "dest": "react-portfolio/$1"
     }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/dist/index.html" } // Serve the index.html from the dist folder
+    { "source": "/(.*)", "destination": "/react-portfolio/index.html" }
   ]
 }
+
  
